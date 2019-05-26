@@ -1,5 +1,6 @@
 module.exports = {
     outputDir: 'docs', // for github pages
+    publicPath: 'bgsyncerrr', // for github pages
     pwa: {
       workboxPluginMode: 'InjectManifest',
       workboxOptions: {
