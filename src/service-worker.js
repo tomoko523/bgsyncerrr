@@ -8,7 +8,7 @@ workbox.core.clientsClaim();
 let bgQueue = new workbox.backgroundSync.Queue('bg-queue-name');
 self.addEventListener('fetch', (e) => {
   console.log(e)
-  if (!e.request.url.startsWith('http://httpbin.org/post')) {
+  if (!e.request.url.startsWith('https://eu.httpbin.org/post')) {
     return;
   }
 

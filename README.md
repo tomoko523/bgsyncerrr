@@ -9,7 +9,7 @@ vue-cli + @vue/cli-plugin-pwa
 
 ## 使い方
 
-1. ページを表示します
+1. ページを表示します [bgsyncerrr](https://tomoko523.github.io/bgsyncerrr/)
 2. 開発者ツールを開きます
 3. オフライン状態にして「POSTを実行する」ボタンを押します
 4. リクエスト自体は失敗しますが開発者ツールでIndexedDBにリクエストが保存されていることが確認できます

@@ -17,7 +17,7 @@ export default {
   },
   methods:{
     sentMessage: function(){
-      axios.post('http://httpbin.org/post')
+      axios.post('https://eu.httpbin.org/post')
       .then(res=>{
         console.log(res)
       })
