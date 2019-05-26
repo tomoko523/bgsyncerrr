@@ -1,29 +1,20 @@
 # bgsyncerrr
 
-## Project setup
-```
-npm install
-```
+Background Syncを試してみるアプリです
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 構成
+vue-cli + @vue/cli-plugin-pwa
 
-### Compiles and minifies for production
-```
-npm run build
-```
+**（注）最新のworkboxを使用するためビルド後にversionを変更しています。**
 
-### Run your tests
-```
-npm run test
-```
+## 使い方
 
-### Lints and fixes files
-```
-npm run lint
-```
+1. ページを表示します
+2. 開発者ツールを開きます
+3. オフライン状態にして「POSTを実行する」ボタンを押します
+4. リクエスト自体は失敗しますが開発者ツールでIndexedDBにリクエストが保存されていることが確認できます
+5. オンライン状態にしてしばらく待つと（通信が安定していれば）syncイベントが起こり、4のリクエストが再度送信されます
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 関連資料
+
+https://www.slideshare.net/hiratatomoko/lets-try-to-use-background-syn
