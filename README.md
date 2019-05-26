@@ -17,4 +17,4 @@ vue-cli + @vue/cli-plugin-pwa
 
 ## 関連資料
 
-https://www.slideshare.net/hiratatomoko/lets-try-to-use-background-syn
+https://www.slideshare.net/hiratatomoko/lets-try-to-use-background-sync
